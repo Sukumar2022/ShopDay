@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPDAY-A E-Commerce Website</title>
+    <link rel="stylesheet" href="public/style.css" />
+    <link rel="stylesheet" href="public/plugins/swiper-bundle.min.css">
+    <script src="public/plugins/jquery.min.js"></script>
+    <script src="public/plugins/swiper-bundle.min.js"></script>
+    <script src="public/main.js"></script>
+    <link rel="stylesheet" href="public/respon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbar">
+        <div class="logo">
+          <h2>ShopDay</h2>
+        </div>
+        <div class="serch-bar">
+          <form action="">
+            <input type="text" name="" placeholder="Products" id="" />
+            <span> &#128269;</span>
+          </form>
+        </div>
+        <div class="menu-bar">
+          <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">All</a></li>
+            <li><a href="">Women</a></li>
+            <li><a href="">Men</a></li>
+            <li><a href="">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="login-div">
+          <a href=""><button>Login</button></a>
+        </div>
+
+        <!-- for responsive menu  -->
+      
+        <p onclick="openNavbar()"> &#9776;</p>
+        <div class="res-nav" id="res-nav">
+          <p onclick="closeNavbar()">&times; </p>
+          <h2>ShopDay</h2>
+          <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">All</a></li>
+            <li><a href="">Women</a></li>
+            <li><a href="">Men</a></li>
+            <li><a href="">Accessories</a></li>
+          </ul>
+          <form action="">
+            <input type="text" name="" placeholder="Products" id="" /> <br><br>
+            <span> &#128269;</span>
+          </form>
+          <a href=""><button>Login</button></a>
+        </div>
+         <!-- end responsive menu  -->
+
+      </div>
+    <!-- end of navbar  -->
+      <div class="hero">
+        <h1>
+          Shopping  as <br />
+          you love
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet <br />
+          Magnam laboriosam debitis rem ipsum. <br />Illo cupiditate culpa
+          perferendis voluptate.
+        </p>
+        <button>Shop Now</button>
+      </div>
+    <!-- end of hero section  -->
+      <div class="category" id="c-bar">
+        <a href="">
+          <div class="card">
+            <i class="fa-solid fa-headphones"></i>
+            Electronics
+          </div>
+        </a>
+        <a href="">
+            <div class="card">
+              <i class="fa-solid fa-laptop"></i>
+               Home Appliances
+            </div>
+          </a>
+          <a href="">
+            <div class="card">
+              <i class="fa-solid fa-bottle-water"></i>
+              Grocery
+            </div>
+          </a>
+          <a href="">
+            <div class="card">
+              <i class="fa-solid fa-shirt"></i>
+              Fashions
+            </div>
+          </a>
+          <a href="">
+            <div class="card">
+              <i class="fa-solid fa-mobile"></i>
+              Mobils & TVs
+            </div>
+          </a>
+          <a href="">
+            <div class="card">
+              <i class="fa-solid fa-dice-three"></i>
+              Others
+            </div>
+          </a>
+      </div>
+     
+      </div>
+       <!-- end of category section  -->
+      <div class="sales">
+        <div class="swiper salesSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="public/images/sales1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="public/images/sales2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="public/images/sales3.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="public/images/sales4.jpeg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="public/images/sales5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <!-- end of sales banner  -->
+       <div class="features">
+        <div class="f-card">no cost emi</div>
+        <div class="f-card">easy return</div>
+        <div class="f-card">fastest delivery</div>
+        <div class="f-card">shop asssured</div>
+       </div>
+       <!-- end of features  -->
+
+   
+       <div class="products">
+        <!-- for electronix produts -->
+          <div class="ele">
+              <h1>Mens Fashions</h1>
+          <div class="pcard-container">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/men1.jpg" alt="">
+                    <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/men2.jpg" alt="">
+                    <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/men3.jpg" alt="">
+                    <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/men4.jpg" alt="">
+                    <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/men5.jpg" alt="">
+                    <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/men3.jpg" alt="">
+                    <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+        </div>
+          <div class="ele">
+            <h1>Womens Fashions</h1>
+            <div class="pcard-container">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/woman1.jpg" alt="">
+                    <p id="name"> Boat SmartWatch </p>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/women2.jpg" alt="">
+                    <p id="name"> Boat SmartWatch </p>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>  
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/women3.jpg" alt="">
+                    <p id="name"> Boat SmartWatch </p>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/women4.jpg" alt="">
+                    <p id="name"> Boat SmartWatch </p>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/women5.jpg" alt="">
+                    <p id="name"> Boat SmartWatch </p>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/women6.jpg" alt="">
+                    <p id="name"> Boat SmartWatch </p>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <h3 class="w-list">&#9829;</h3>
+                    <img src="public/images/Products/women7.jpg" alt="">
+                    <p id="name"> Boat SmartWatch </p>
+                    <div class="btn-div">
+                      <span> &#8377; 1799/-  </span>
+                      <button>Add to cart</button>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+
+
+      <div class="ele">
+        <h1>Mobiles & Laptops</h1>
+        <div class="pcard-container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/m1.png" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/m2.jpg" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>  
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/m3.jpg" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/m4.jpg" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/m5.jpg" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/l1.jpg" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/l2.jpg" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/l3.jpeg" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/l4.jpg" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/l5.png" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/l6.jpg" alt="">
+                <p id="name"> Boat SmartWatch </p>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+      </div>
+  
+      <div class="ele">
+          <h1>Electronics</h1>
+          <div class="pcard-container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e1.png" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e2.jpg" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>  
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e3.jpg" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e4.jpg" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e4.png" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e5.png" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e6.jpeg" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e7.jpg" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e8.jpg" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e9.jpg" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="w-list">&#9829;</h3>
+                  <img src="public/images/Products/e10.jpg" alt="">
+                  <p id="name"> Boat SmartWatch </p>
+                  <div class="btn-div">
+                    <span> &#8377; 1799/-  </span>
+                    <button>Add to cart</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ele">
+        <h1>Home Appliances</h1>
+        <div class="pcard-container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/h1.jpg" alt="">
+                <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                <div class="btn-div">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/h2.jpg" alt="">
+                <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/h3.png" alt="">
+                <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/h4.png" alt="">
+                <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/h5.png" alt="">
+                <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/h6.jpg" alt="">
+                <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/h7.jpg" alt="">
+                <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/h8.jpg" alt="">
+                <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <h3 class="w-list">&#9829;</h3>
+                <img src="public/images/Products/h9.jpeg" alt="">
+                <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+                <div class="btn-div">
+                  <span> &#8377; 1799/-  </span>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+    </div>
+
+
+    <div class="ele">
+      <h1>Fashions</h1>
+      <div class="pcard-container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h3 class="w-list">&#9829;</h3>
+              <img src="public/images/Products/f1.jpeg" alt="">
+              <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+              <div class="btn-div">
+                <span> &#8377; 1799/-  </span>
+                <button>Add to cart</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="w-list">&#9829;</h3>
+              <img src="public/images/Products/f1.jpg" alt="">
+              <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+              <div class="btn-div">
+                <span> &#8377; 1799/-  </span>
+                <button>Add to cart</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="w-list">&#9829;</h3>
+              <img src="public/images/Products/f2.jpg" alt="">
+              <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+              <div class="btn-div">
+                <span> &#8377; 1799/-  </span>
+                <button>Add to cart</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="w-list">&#9829;</h3>
+              <img src="public/images/Products/f3.jpg" alt="">
+              <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+              <div class="btn-div">
+                <span> &#8377; 1799/-  </span>
+                <button>Add to cart</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="w-list">&#9829;</h3>
+              <img src="public/images/Products/f4.jpg" alt="">
+              <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+              <div class="btn-div">
+                <span> &#8377; 1799/-  </span>
+                <button>Add to cart</button>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <h3 class="w-list">&#9829;</h3>
+              <img src="public/images/Products/f5.jpg" alt="">
+              <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+              <div class="btn-div">
+                <span> &#8377; 1799/-  </span>
+                <button>Add to cart</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="w-list">&#9829;</h3>
+              <img src="public/images/Products/f6.jpg" alt="">
+              <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+              <div class="btn-div">
+                <span> &#8377; 1799/-  </span>
+                <button>Add to cart</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="w-list">&#9829;</h3>
+              <img src="public/images/Products/f7.jpg" alt="">
+              <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+              <div class="btn-div">
+                <span> &#8377; 1799/-  </span>
+                <button>Add to cart</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h3 class="w-list">&#9829;</h3>
+              <img src="public/images/Products/f8.jpg" alt="">
+              <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+              <div class="btn-div">
+                <span> &#8377; 1799/-  </span>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+  </div>
+
+
+
+  <div class="ele">
+    <h1>Grocery</h1>
+    <div class="pcard-container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g1.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1800/-  </span>
+              <button onclick="addtoCart(1)">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g2.png" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g3.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g4.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g5.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g6.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g7.png" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g8.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g9.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g10.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g11.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g12.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span id="rs"> 1799/-  </span>
+              <button onclick="addtoCart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g13.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+              &#8377; <span> 1799/-  </span>
+              <button onclick="add-to-cart()">Add to cart</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <h3 class="w-list">&#9829;</h3>
+            <img src="public/images/Products/g14.jpg" alt="">
+            <a href="" id="name"> boAt Wave Infinity, with 1.8 HD Glass </a>
+            <div class="btn-div">
+                &#8377; <span> 1799/-  </span>
+              <button onclick="add-to-cart()">Add to cart</button>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+       </div>
+     
+<!-- end of products  -->
+
+<div class="spon">
+
+</div>
+      <!-- end of parterns  -->
+      <div class="contact">
+        <div class="title">
+          <h1>shopday</h1>
+          <p>always for you</p>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="">Mens Garments</a></li>
+            <li><a href="">Womens Garments</a></li>
+            <li><a href="">Grocery</a></li>
+            <li><a href="">Home Appliances</a></li>
+            <li><a href="">TVs & Laptops</a></li>
+          </ul>
+        </div>
+        <div class="subs">
+        <form action="">
+          <p>Subscribe</p>
+          <input type="email" placeholder="Your email address..."><br>
+          <button>subscribe</button>
+        </form>
+        </div>
+      </div>
+      </div>
+      <div class="add-cart-btn">
+        <button onclick="callCart()"> <i class="fa-solid fa-cart-shopping"></i> </button>
+      </div>
+      <div class="add-cart" id="add-cart">
+          <h4>your busket</h4>
+          <span onclick="exitCart()">&times;</span>
+          <table>
+            <tr>
+              <th>Products</th>
+              <th>quantity</th>
+              <th>price</th>
+            </tr>
+            <tr>
+              <td>item1</td>
+              <td><select name="" id="qty">
+                <option value="">1 </option>
+              </select></td>
+              <td>233/-</td>
+            </tr>
+            <tr>
+              <td>item2</td>
+              <td>4</td>
+              <td>599/-</td>
+            </tr>
+            <tr>
+              <td>item3</td>
+              <td>1</td>
+              <td>40/-</td>
+            </tr>
+            
+            <tr>
+              <td>Total Item Price</td>
+              <td>12</td>
+              <td>2300/-</td>
+            </tr>
+            <tr>
+              <td>Delivery Charge</td>
+              <td></td>
+              <td>40/-</td>
+            </tr>
+            <tr>
+              <td>Payment Price</td>
+              <td></td>
+              <td>2340/-</td>
+            </tr>
+            <tr>
+              <th colspan="3s" >
+                <select name="" id="">
+                  <option value="">Payment Method</option>
+                  <option value="">UPI</option>
+                  <option value="">EMI</option>
+                  <option value="">Credit/Debit Card</option>
+                </select>
+              </th>
+            </tr>
+            <tr>
+              <td colspan="3"><button> Placed Item </button></td>
+            </tr>
+          </table>
+      </div>
+
+
+
+      <!-- end of wrapper class  -->
+      </div>
+
+      <div class="footer">
+        <p>Copyright &#169; 2023. Powered by ShopDay. Sukumar</p>
+        <div class="icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-discord"></i></a>
+        </div>
+    <script>
+      var swiper = new Swiper(".salesSwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+  var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 12,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        360: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        412: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
+    });
+    </script>
+  </body>
+</html>
